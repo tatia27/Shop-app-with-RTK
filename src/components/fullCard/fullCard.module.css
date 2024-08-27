@@ -1,0 +1,32 @@
+.card {
+  width: 700px;
+  height: 550px;
+  background-color: var(--card-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.card__actions {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 7px;
+}
+
+.card__title {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.main_image {
+  width: 200px;
+  height: 190px;
+  margin: 15px 0;
+}
+
+div p {
+  margin-bottom: 7px;
+}

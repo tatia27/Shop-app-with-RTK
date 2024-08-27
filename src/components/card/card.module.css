@@ -1,0 +1,32 @@
+.card {
+  width: 270px;
+  height: 320px;
+  background-color: var(--card-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card__actions {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 7px;
+}
+
+.card__title {
+  font-size: 14px;
+  color: var(--text-color);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.main_image {
+  width: 230px;
+  height: 190px;
+  margin: 15px 0;
+}

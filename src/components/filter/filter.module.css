@@ -1,0 +1,13 @@
+.filter_button {
+  padding: 10px;
+  background-color: #78878a;
+  color: #fff;
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.filter_button:hover {
+  background-color: #4b5556;
+}

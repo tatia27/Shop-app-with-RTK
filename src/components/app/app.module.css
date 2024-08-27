@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-color: #f2f1ed;
+  --text-color: #1d1b1b;
+  --border-radius: 10px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
